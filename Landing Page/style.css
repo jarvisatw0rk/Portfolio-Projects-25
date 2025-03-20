@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Jost';
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+}
+
+.nav-container{
+    padding:20px 0;
+}
+
+.nav-container h2{
+    color: rgb(29,29,29)
+}
+
+.nav-container .nav{
+    justify-self: flex-end;
+    display: flex;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.nav-container .nav a{
+    margin: 0 20px;
+    color: black;
+}
+
+.nav container .nav a .active{
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.header{
+    width: 80%;
+    margin: 70px auto;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container div h3{
+    font-size: 70px;
+}
+
+.container div h3::after{
+    content: "";
+    position: absolute;
+    background: rgba(23,125,165);
+    height: 3px;
+    width: 130px;
+    top: 51%;
+    left: 15%;
+}
+
+.container div p{
+    margin: 30px;
+}
+
+.container div a{
+    padding: 15px;
+    background: #333;
+    margin: 20px 0;
+    display: inline-block;
+
+
+}
+
+.peepy{
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    opacity: .1;
+    z-index: -1;
+}
+
+.footer{
+    margin:100px 0 0 0;
+    background: #333;
+    padding: 50px 50px;
+
+}
+
+
+.footer .main-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+
+.main container div h4{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 10px 0
+}
+
+
+.main-container div li{
+    cursor: pointer;
+    margin: 3px;
+}
+
+hr{
+    margin: 20px 0;
+    opacity: .4;
+}
+
+
+.img{
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    float:right;
+    border: 10px solid #333;
+}
+
+
+.img2{
+    border-radius: 50%;
+
+    float:left;
+}
+
+.h1{
+    font-size: 40px;
+    text-align:center;
+}
+
+
+.h3{
+    font-size:10px;
+}
+
+
+.button{
+    border-radius: 50%;
+    color: #333;
+    background-color:#81949e;
+    font-family: 'Jost';
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition: all 1.0s;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: #333;
+    background-color:#567e97;
+}
+
+
+
+
+
+
+.navbar a {
+    float: left;
+    overflow: hidden;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Jost'
+
+}
+
+.navbar a:hover {
+    background-color: #567e97;
+    color:#ffffff
+}
+
+.navbar.a.active {
+    background-color: #FF7B00;
+    color:#FF7B00
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .navbar {
+    overflow: hidden;
+    background-color: #00c8ff56;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Jost';
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #0091ffb4;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.column {
+    float:right;
+    width:10%;
+    padding: 3px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
